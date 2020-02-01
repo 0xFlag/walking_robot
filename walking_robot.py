@@ -24,7 +24,7 @@ def banner():
     print("python walking_robot.py -u ip -p port")
     print("python walking_robot.py -f urls.txt")
     print("python walking_robot.py -r urls.txt -p port")
-    print("python walking_robot.py -h help\r\n")
+    print("python walking_robot.py -h --help\r\n")
 
 def function(ip_addr, port):
     if port == 80:
