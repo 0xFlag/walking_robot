@@ -15,7 +15,9 @@ walking_robot.py：主程序</br>
 > python walking_robot.py -f urls.txt</br>
 > python walking_robot.py -r urls.txt -p port</br>
 > python walking_robot.py -h --help</br>
-
+</br>
+Linux 可以直接执行，测试是在kali 下测试的，需要nmap</br>
+Windows 需要安装windows 版的nmap，测试
 # 参考
 灵感来自freebuf：</br>
 https://www.freebuf.com/articles/system/223181.html</br>
