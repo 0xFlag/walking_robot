@@ -1,8 +1,8 @@
 # walking_robot
 A tool to verify remote code execution：一个验证远程代码执行的工具</br>
 </br>
-编程语言：Python 3.6.5</br>
-调用库：python-namp 0.6.1</br>
+编程语言：Python==3.6.5</br>
+调用库：python-namp==0.6.1</br>
 # 说明
 行走的漏洞验证机器人</br>
 这个程序主要是批量来验证有没有远程代码执行漏洞的，可以自己自定义添加验证代码，主要修改需要看代码结构。
