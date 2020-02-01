@@ -22,6 +22,7 @@ Windows 安装windows 版的nmap后还需要修改python-nmap库文件，具体�
 找到nmap库路径</br>
 :\Python36\Lib\site-packages\nmap\nmap.py
 </br>
+找到这段代码，大概82行</br>
 
 ```
 def __init__(self, nmap_search_path=('nmap', '/usr/bin/nmap', '/usr/local/bin/nmap', '/sw/bin/nmap', '/opt/local/bin/nmap', r"nmap.exe 所在路径")):
