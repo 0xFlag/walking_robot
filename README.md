@@ -8,8 +8,8 @@ walking_robot.py：主程序</br>
 /imports/req.py：验证请求</br>
 /imports/poc_lists.py：验证代码</br>
 # 如何使用
->>> python walking_robot.py ip</br></br>
->>> python walking_robot.py -u ip -p port</br>
->>> python walking_robot.py -f urls.txt</br>
->>> python walking_robot.py -r urls.txt -p port</br>
->>> python walking_robot.py -h --help</br>
+> python walking_robot.py ip</br>
+> python walking_robot.py -u ip -p port</br>
+> python walking_robot.py -f urls.txt</br>
+> python walking_robot.py -r urls.txt -p port</br>
+> python walking_robot.py -h --help</br>
