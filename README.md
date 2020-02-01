@@ -17,7 +17,11 @@ walking_robot.py：主程序</br>
 > python walking_robot.py -h --help</br>
 </br>
 Linux 可以直接执行，测试是在kali 下测试的，需要nmap</br>
-Windows 需要安装windows 版的nmap，测试
+Windows 需要安装windows 版的nmap，测试是</br>
+Windows 安装windows 版的nmap后还需要修改python-nmap库文件，具体修改：</br>
+*:\Python36\Lib\site-packages\nmap\nmap.py</br>
+def __init__(self, nmap_search_path=('nmap', '/usr/bin/nmap', '/usr/local/bin/nmap', '/sw/bin/nmap', '/opt/local/bin/nmap', r"nmap.exe 所在路径")):
+</br>
 # 参考
 灵感来自freebuf：</br>
 https://www.freebuf.com/articles/system/223181.html</br>
