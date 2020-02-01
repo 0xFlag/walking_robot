@@ -30,7 +30,7 @@ def __init__(self, nmap_search_path=('nmap', '/usr/bin/nmap', '/usr/local/bin/nm
 </br>
 
 # 参考
-</br>灵感来自freebuf：</br>
+灵感来自freebuf：</br>
 https://www.freebuf.com/articles/system/223181.html</br>
 部分远程代码验证：</br>
 https://github.com/pan-unit42/iocs/blob/master/mirai/ECHOBOT_28thOct2019.md</br>
